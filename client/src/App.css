@@ -1,0 +1,147 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:  Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 2px;
+  }
+body {
+  margin: 0;
+  padding: 0;
+}
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.navbar {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  text-decoration: none;
+}
+
+button{
+  background-color: darkorchid;
+  color: #eee;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+button[type="submit"]{
+  background-color: #00b60c;
+  color: #eee;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 2em;
+}
+a {
+  color: #eee;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 400px;
+}
+.create-recipe form {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+h2 {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 12px;
+}
+
+button:hover{
+  font-weight: 100;
+  background-color: rgb(230, 0, 0);
+  font-size: 0.9em;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+button[type="submit"]:hover{
+  font-weight: 100;
+  background-color: goldenrod;
+  font-size: 0.9em;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+a:hover{
+  color: cyan;
+  box-shadow: 0 2px 0 0 currentColor;
+}
